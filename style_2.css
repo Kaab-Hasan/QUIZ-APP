@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(./rb_2149416652.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover; 
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    backdrop-filter: blur(5px);
+    text-align: center;
+    padding: 50px;
+    background: transparent;
+    margin-top: 10px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgb(58, 52, 52);
+    max-width: 500px;
+    margin-top: 4%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color: #fffb00;
+    font-size: 2.5em;
+    text-shadow:  2px 4px 4px rgba(0, 0, 0, 0.753);
+}
+
+p {
+    /* background-color:rgb(255, 255, 255); */
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.2em;
+    color: #000000;
+    line-height: 1.6;
+}
+
+.btn {
+    display: inline-block;
+    background-color: gold;
+    color: rgb(21, 20, 20);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+    border: 1px solid black;
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+.btn:hover {
+    background-color: #121212;
+    color: gold;
+}
+
+.link-button {
+    margin-top: 20px;
+    font-size: 1em;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.link-button:hover {
+    text-decoration: underline;
+}

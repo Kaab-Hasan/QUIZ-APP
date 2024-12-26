@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="2.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz</h1>
+        <div id="quiz">
+            <div id="timer">10:00</div>
+
+            <div id="question-container">
+                <p id="question"></p>
+                <div id="options"></div>
+            </div>
+            <button id="next-button" disabled>Next</button>
+            
+            <div id="question-number">Question 1 of 25</div>
+            <button id="submit-button" class="submit" style="display: none;" onclick="submitQuiz()">Submit</button>
+            <div id="result">
+                <h2>Your Score: <span id="score"></span>/25</h2>
+                <!-- <p id="percentage"></p>
+                <p id="grade"></p> -->
+                <button class="back" onclick="restartQuiz()">Back to quiz</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
